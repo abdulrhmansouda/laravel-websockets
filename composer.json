@@ -1,5 +1,5 @@
 {
-    "name": "beyondcode/laravel-websockets",
+    "name": "abdulrhmansouda/laravel-websockets",
     "description": "An easy to use WebSocket server",
     "keywords": [
         "beyondcode",
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^8.0|^8.1|^8.2|^8.3|^8.4",
         "ext-json": "*",
         "cboden/ratchet": "^0.4.1",
         "facade/ignition-contracts": "^1.0",
@@ -56,7 +56,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
